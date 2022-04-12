@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestHealthCheckResponse(t *testing.T) {
+func TestHealthController(t *testing.T) {
 	gin.SetMode(gin.TestMode)
 
 	t.Run("200OK", func(t *testing.T) {
