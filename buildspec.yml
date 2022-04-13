@@ -1,5 +1,11 @@
 version: 0.2
-
+env:
+  variables:
+    AWS_DEFAULT_REGION: "us-east-1"
+    AWS_ACCOUNT_ID: "666632162364"
+    IMAGE_REPO_NAME: "ecs-devops-sandbox-repository"
+    IMAGE_TAG: "lastest"
+  
 phases:
   pre_build:
     commands:
