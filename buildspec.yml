@@ -5,8 +5,12 @@ phases:
     commands:
       - echo Logging in to Amazon ECR...
       - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com
+      - echo Login successful.
+      - echo Testing the build...
+      - go test ./...
+      - echo Testing successful.
     finally:
-      - echo Login to Amazon ECR completed.
+      - echo Pre-build phase completed.
   build:
     commands:
       - echo Build started on `date`
