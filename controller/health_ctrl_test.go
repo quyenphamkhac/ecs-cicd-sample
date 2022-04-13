@@ -32,7 +32,7 @@ func TestHealthController(t *testing.T) {
 		r.ServeHTTP(rr, req)
 
 		expected, err := json.Marshal(gin.H{
-			"message": "OK1",
+			"message": "OK2",
 		})
 
 		assert.NoError(t, err)
