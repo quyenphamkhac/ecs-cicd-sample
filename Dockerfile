@@ -1,4 +1,4 @@
-FROM golang:alpine3.15
+FROM public.ecr.aws/bitnami/golang:latest
 
 ENV GIN_MODE=release
 
