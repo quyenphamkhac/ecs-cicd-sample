@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:666632162364:task-definition/ecs-devops-sandbox-task-definition:10"
+        TaskDefinition: "arn:aws:ecs:us-east-1:666632162364:task-definition/ecs-devops-sandbox-task-definition:11"
         LoadBalancerInfo:
           ContainerName: "ecs-devops-sandbox-container"
           ContainerPort: 8080
