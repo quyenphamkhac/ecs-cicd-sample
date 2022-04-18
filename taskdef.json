@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "ecs-devops-sandbox-container",
-      "image": "666632162364.dkr.ecr.us-east-1.amazonaws.com/ecs-devops-sandbox-repository:lastest",
+      "image": "<IMAGE1_NAME>",
       "cpu": 0,
       "memoryReservation": 512,
       "links": [],
