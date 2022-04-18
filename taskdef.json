@@ -88,8 +88,5 @@
   "compatibilities": ["EC2", "FARGATE"],
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "256",
-  "memory": "512",
-  "registeredAt": "2022-04-18T05:00:20.026Z",
-  "registeredBy": "arn:aws:sts::666632162364:assumed-role/cdk-hnb659fds-cfn-exec-role-666632162364-us-east-1/AWSCloudFormation",
-  "tags": []
+  "memory": "512"
 }
