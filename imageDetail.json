@@ -1,4 +1,4 @@
 {
-  "ImageURI": "666632162364.dkr.ecr.us-east-1.amazonaws.com/ecs-devops-sandbox-repository:lastest",
-  "ImageTags":["lastest"]
+  "ImageURI": "666632162364.dkr.ecr.us-east-1.amazonaws.com/ecs-devops-sandbox-repository:latest",
+  "ImageTags":["latest"]
 }
