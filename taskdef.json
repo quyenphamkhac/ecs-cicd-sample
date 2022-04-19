@@ -1,5 +1,5 @@
 {
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:666632162364:task-definition/ecs-devops-sandbox-task-definition:14",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:666632162364:task-definition/ecs-devops-sandbox-task-definition:20",
   "containerDefinitions": [
     {
       "name": "ecs-devops-sandbox-container",
@@ -36,7 +36,7 @@
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
-          "awslogs-group": "EcsDevopsSampleStack-ecsdevopssandboxtaskdefinitionecsdevopssandboxcontainerLogGroup943B00F7-qdQ4z7L1AlIs",
+          "awslogs-group": "EcsDevopsSampleStack-ecsdevopssandboxtaskdefinitionecsdevopssandboxcontainerLogGroup943B00F7-toP09M67CAcy",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs-devops-sandbox"
         },
