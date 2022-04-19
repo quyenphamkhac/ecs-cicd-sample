@@ -1,5 +1,5 @@
 {
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:666632162364:task-definition/ecs-devops-sandbox-task-definition:11",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:666632162364:task-definition/ecs-devops-sandbox-task-definition:14",
   "containerDefinitions": [
     {
       "name": "ecs-devops-sandbox-container",
