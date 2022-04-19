@@ -11,6 +11,6 @@ func NewHealthController() *healthCtrl {
 
 func (c *healthCtrl) Health(ctx *gin.Context) {
 	ctx.JSON(200, gin.H{
-		"message": "This is blue/green deployment",
+		"message": "This is blue/green deployment1",
 	})
 }
